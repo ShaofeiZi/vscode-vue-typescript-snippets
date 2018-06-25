@@ -1,0 +1,47 @@
+{
+  "name": "vscode-vue-typescript-snippets",
+  "publisher": "ShaofeiZi",
+  "displayName": "Vue TypeScript Snippets",
+  "description": "Vue with TypeScript snippets.",
+  "icon": "images/vue.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaofeiZi/vscode-vue-typescript-snippets.git"
+  },
+  "keywords": [
+    "Vue",
+    "Vue 2",
+    "vue",
+    "Vuejs",
+    "HTML"
+  ],
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/ShaofeiZi/vscode-vue-typescript-snippets/issues"
+  },
+  "homepage": "https://github.com/ShaofeiZi/vscode-vue-typescript-snippets#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
+}
